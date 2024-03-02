@@ -1,0 +1,21 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "object-curly-spacing": ["error", "never"],
+  "ignorePatterns": ["node_modules/", "build/"],
+  "overrides": [
+    {
+      "files": ["*.md"],
+      "options": {
+        "parser": "markdown",
+        "proseWrap": "never"
+      }
+    }
+  ]
+}
